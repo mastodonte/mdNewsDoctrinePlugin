@@ -1,0 +1,4 @@
+mdNewsDoctrinePlugin
+====================
+
+For news management
