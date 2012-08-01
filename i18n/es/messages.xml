@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2010-07-28T16:23:16Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>mdNewsDoctrine_text_Source</source>
+        <target>Fuente</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>mdNewsDoctrine_text_Publish</source>
+        <target>Fecha de publicación</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>mdNews_text_Relevance</source>
+        <target>Relevancia</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>mdNewsDoctrine_text_Title</source>
+        <target>Título</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>mdNewsDoctrine_text_Copete</source>
+        <target>Copete</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>mdNewsDoctrine_text_Body</source>
+        <target>Descripción</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>mdNewsDoctrine_text_backendFilter</source>
+        <target>Búsquedas</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>mdNewsDoctrine_text_backendTitle</source>
+        <target>Noticias</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>mdNewsDoctrine_text_add</source>
+        <target>Agregar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>mdNewsDoctrine_text_backendFilterTextValue</source>
+        <target>Por texto</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>mdNewsDoctrine_text_backendFilterPublish</source>
+        <target>Por fecha de publicación</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>mdNewsDoctrine_text_backendFilterSearch</source>
+        <target>Buscar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>mdNewsDoctrine_text_backendEdit</source>
+        <target>EDITAR</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>mdNewsDoctrine_text_IsActive</source>
+        <target>Esta activa</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>mdNewsDoctrine_text_close</source>
+        <target>Cerrar</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>mdNewsDoctrine_text_cancel</source>
+        <target>CANCELAR</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>mdNewsDoctrine_text_deleteNew</source>
+        <target>ELIMINAR NOTICIA</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>mdNewsDoctrine_text_confirmRemove</source>
+        <target>¿ESTA SEGURO QUE QUIERE ELIMINAR LA NOTICIA?</target>
+        <note>es</note>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>mdNewsDoctrine_text_save</source>
+        <target>GUARDAR</target>
+        <note>es</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

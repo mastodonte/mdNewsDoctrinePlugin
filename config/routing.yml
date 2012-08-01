@@ -1,0 +1,7 @@
+mdNews:
+  url:   /adminNoticias.html
+  param: { module: mdnews, action: index }
+
+mdNewsSearch:
+  url: /searchNoticias.html
+  param: { module: mdnews, action: searchmdnews }

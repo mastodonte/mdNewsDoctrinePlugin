@@ -1,0 +1,51 @@
+mdNews:
+  actAs:
+    MdContentBehavior: ~
+    Timestampable: ~
+    MdI18nBehavior: ~
+<?php if( sfConfig::get( 'sf_plugins_news_media', false ) ):  ?>
+    mdMediaBehavior: ~
+<?php endif; ?>
+<?php if( sfConfig::get( 'sf_plugins_news_feature', false ) ):  ?>
+    MdFeatureBehavior: ~
+<?php endif; ?>
+<?php if( sfConfig::get( 'sf_plugins_news_category', false ) ):  ?>
+    mdCategoryBehavior: ~
+<?php endif; ?>
+<?php if( sfConfig::get( 'sf_plugins_news_commentary', false ) ):  ?>
+    mdCommentableBehavior: ~
+<?php endif; ?>
+<?php if( sfConfig::get( 'sf_plugins_news_ratings', false ) ):  ?>
+    mdRatingBehavior: ~
+<?php endif; ?>
+    I18n:
+      fields: [title,copete,body]
+      actAs:
+        Sluggable: { fields: [title], uniqueBy: [lang, title] }
+  columns:
+    id:
+      type: integer
+      primary: true
+      unsigned: true
+      autoincrement: true
+    title:
+      type: string(128)
+      notnull: true
+    copete:
+      type: text
+      notnull: false
+    body:
+      type: text
+      notnull: true
+    source:
+      type: string(128)
+      notnull: false
+    publish:
+      type: timestamp
+      notnull: true
+    is_active:
+      type: boolean
+      default: 0
+    views_count:
+      type: integer
+      default: 0
